@@ -1,0 +1,66 @@
+#cat-label {
+    
+    display: inline;
+    margin:0px;
+}
+
+ #cat-select {
+
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    
+
+}
+/*#cat-file{
+	display: inline;
+}*/
+#cat-file,#cat-video{
+	display: none;
+}
+#cat-filesub,#cat-videosub{
+	display: none;
+}
+.post-icons{
+	margin-left: 40px;
+	display: inline-block;
+	
+	
+}
+#img-upload ,#mp4-upload{
+width: 40px;
+height: 40px;	
+}
+#mp4-upload{
+	margin-left: 10px;
+}
+#img-upload ,#mp4-upload:hover{
+
+cursor: pointer;
+}
+#img-uploadsub ,#mp4-uploadsub{
+width: 40px;
+height: 40px;	
+}
+#mp4-uploadsub{
+	margin-left: 10px;
+}
+#img-uploadsub ,#mp4-uploadsub:hover{
+
+cursor: pointer;
+}
+/*.image-upload > input
+{
+    display: none;
+}
+.image-upload img
+{
+    width: 80px;
+    cursor: pointer;
+}*/
+.post-icons{
+	padding: 5px;
+	
+	border-style: solid;
+  border-color: #818285;
+}
